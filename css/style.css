@@ -90,9 +90,36 @@ footer{
     height: 60px;
     background-color: #222222;
 }
-    
-    
-    
-    
-    
 
+.zoom-option{
+    display: flex;
+    justify-content: space-between;
+}
+   
+    
+    
+    
+ a + div{
+    color: white;
+    font-size: small;
+    
+    
+ } 
+ 
+ 
+ 
+ .option{
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+ }
+ 
+
+.exit{
+    background-color: #4A4A4A;
+    color: red;
+    padding: 10px;
+    font-size: small;
+    margin: 0;
+}
