@@ -15,17 +15,16 @@
     margin: 0 auto;
 }
 
-/* MAIN */
+            /* MAIN */
+
+/* SECTION 1 */
 main{
     height:calc(100vh - 60px) ;
     background-color: black;
     overflow: hidden;
 }
 
-footer{
-    height: 60px;
-    background-color: blue;
-}
+
 
 
 .row{
@@ -52,3 +51,48 @@ footer{
 i{
     color: white;
 }
+
+
+
+/* SECTION 2 */
+.my-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -5px;
+    margin-top: 30px;
+}
+
+.video{
+
+    background-image: url(https://picsum.photos/200/300);
+    width: calc((100% / 6) - 10px);
+    height: calc(100vh / 6);
+    margin: 5px;
+    position: relative;
+} 
+
+.video > div{
+    position: absolute;
+    bottom:0;
+    left:0;
+    background-color:rgba(0,0,0,0.5); 
+    color: white;
+    font-size: small;
+    padding: 5px;
+
+}
+    
+    
+   
+/* FOOTER */
+
+footer{
+    height: 60px;
+    background-color: #222222;
+}
+    
+    
+    
+    
+    
+
